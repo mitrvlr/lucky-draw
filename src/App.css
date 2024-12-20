@@ -1,0 +1,40 @@
+/* src/App.css */
+
+.roulette-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roulette-wheel {
+  width: 200px;
+  height: 200px;
+  border: 8px solid #90caf9;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.roulette-inner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 90%;
+  position: relative;
+}
+
+.roulette-number {
+  width: 25%; /* 4x4 grid */
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #0d47a1;
+  border: 1px solid #90caf9;
+  box-sizing: border-box;
+}
